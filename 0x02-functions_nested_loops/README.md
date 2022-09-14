@@ -1,0 +1,1 @@
+this file 0-putchar.c writes program that prints _putchar
