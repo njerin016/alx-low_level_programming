@@ -1,0 +1,1 @@
+This file 0-reset_to_98.ctakes a pointer to an int as parameter and updates the value it points to to 98
