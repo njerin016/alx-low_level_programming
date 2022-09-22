@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * leet - leet encoder
+ * @str: string to be encoded
+ *
+ * Return: address of the encoded string
+ */
+
+char *leet(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		str[i] = transform(str[i]);
+		i++;
+	}
+	return (str);
+}
+
+/**
+ * transform - helper function to map a letter with it's leet encoding
+ * @x: char to be encoded
+ *
+ * Return: the encoded char
+ */
+
+char transform(char x)
+{
+	
