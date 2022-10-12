@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * _strlen - counts and returns string length
+ * @s: that's the string
+ *
+ * Return: the length
+ */
+int _strlen(char *s)
+{
+	int counter = 0;
