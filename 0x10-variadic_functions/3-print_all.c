@@ -5,7 +5,7 @@
 /**
  * print_all - prints anything.
  * @format - function input
- *
+ * c = char, i = int, f = float, s = char * (if null print (nil))
  * Return: 0 success
  */
 
