@@ -14,24 +14,31 @@
 
 int main(int argc, char *argv[])
 {
-    int add = 0;
-    int idx;
+	int add = 0;
+	int idx;
 
-    if (argc == 1) {
-        printf("0\n");
-        return 0;
-    } else {
-        for (idx = 1; idx < argc; idx++) {
-            int j;
-            for (j = 0; argv[idx][j] != '\0'; j++) {
-                if (!isdigit(argv[idx][j])) {
-                    printf("Error\n");
-                    return 1;
-                }
-            }
-            add += atoi(argv[idx]);
-        }
-        printf("%d\n", add);
-        return 0;
-    }
+	if (argc == 1)
+	{
+		printf("0\n");
+		return (0);
+	}
+	else
+	{
+		for (idx = 1; idx < argc; idx++)
+		{
+			int j;
+
+			for (j = 0; argv[idx][j] != '\0'; j++)
+			{
+				if (!isdigit(argv[idx][j]))
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+			add += atoi(argv[idx]);
+		}
+		printf("%d\n", add);
+		return (0);
+	}
 }

@@ -12,11 +12,11 @@
  */
 
 int main(int argc, char *argv[])
-{       
-        int mult = 1;
-        int idx;
+{
+	int mult = 1;
+	int idx;
 
-        if (argc == 3)
+	if (argc == 3)
 	{
 		for (idx = 1; idx < argc; idx++)
 		{
